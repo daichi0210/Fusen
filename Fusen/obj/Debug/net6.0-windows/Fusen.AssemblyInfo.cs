@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Fusen")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04bd0efbf37ba8b9dce2e6193788495c14b2fc23")]
 [assembly: System.Reflection.AssemblyProductAttribute("Fusen")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Fusen")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

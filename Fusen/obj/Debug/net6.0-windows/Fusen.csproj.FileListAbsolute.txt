@@ -1,0 +1,17 @@
+D:\dev\windows\src\repos\Fusen\Fusen\bin\Debug\net6.0-windows\Fusen.exe
+D:\dev\windows\src\repos\Fusen\Fusen\bin\Debug\net6.0-windows\Fusen.deps.json
+D:\dev\windows\src\repos\Fusen\Fusen\bin\Debug\net6.0-windows\Fusen.runtimeconfig.json
+D:\dev\windows\src\repos\Fusen\Fusen\bin\Debug\net6.0-windows\Fusen.dll
+D:\dev\windows\src\repos\Fusen\Fusen\bin\Debug\net6.0-windows\Fusen.pdb
+D:\dev\windows\src\repos\Fusen\Fusen\obj\Debug\net6.0-windows\Fusen.FormFusen.resources
+D:\dev\windows\src\repos\Fusen\Fusen\obj\Debug\net6.0-windows\Fusen.csproj.GenerateResource.cache
+D:\dev\windows\src\repos\Fusen\Fusen\obj\Debug\net6.0-windows\Fusen.GeneratedMSBuildEditorConfig.editorconfig
+D:\dev\windows\src\repos\Fusen\Fusen\obj\Debug\net6.0-windows\Fusen.AssemblyInfoInputs.cache
+D:\dev\windows\src\repos\Fusen\Fusen\obj\Debug\net6.0-windows\Fusen.AssemblyInfo.cs
+D:\dev\windows\src\repos\Fusen\Fusen\obj\Debug\net6.0-windows\Fusen.csproj.CoreCompileInputs.cache
+D:\dev\windows\src\repos\Fusen\Fusen\obj\Debug\net6.0-windows\Fusen.sourcelink.json
+D:\dev\windows\src\repos\Fusen\Fusen\obj\Debug\net6.0-windows\Fusen.dll
+D:\dev\windows\src\repos\Fusen\Fusen\obj\Debug\net6.0-windows\refint\Fusen.dll
+D:\dev\windows\src\repos\Fusen\Fusen\obj\Debug\net6.0-windows\Fusen.pdb
+D:\dev\windows\src\repos\Fusen\Fusen\obj\Debug\net6.0-windows\Fusen.genruntimeconfig.cache
+D:\dev\windows\src\repos\Fusen\Fusen\obj\Debug\net6.0-windows\ref\Fusen.dll

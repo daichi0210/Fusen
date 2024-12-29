@@ -1,6 +1,6 @@
 ﻿namespace Fusen
 {
-    partial class Form1
+    partial class FormFusen
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,12 +28,42 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            textFusenMemo = new TextBox();
+            colorDialogFusen = new ColorDialog();
+            SuspendLayout();
+            // 
+            // textFusenMemo
+            // 
+            textFusenMemo.BackColor = Color.FromArgb(255, 255, 192);
+            textFusenMemo.Dock = DockStyle.Fill;
+            textFusenMemo.Location = new Point(0, 0);
+            textFusenMemo.Multiline = true;
+            textFusenMemo.Name = "textFusenMemo";
+            textFusenMemo.Size = new Size(800, 450);
+            textFusenMemo.TabIndex = 0;
+            textFusenMemo.DoubleClick += textFusenMemo_DoubleClick;
+            textFusenMemo.KeyDown += textFusenMemo_KeyDown;
+            textFusenMemo.MouseDown += textFusenMemo_MouseDown;
+            textFusenMemo.MouseMove += textFusenMemo_MouseMove;
+            // 
+            // FormFusen
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(textFusenMemo);
+            FormBorderStyle = FormBorderStyle.None;
+            Name = "FormFusen";
+            Opacity = 0.6D;
+            Text = "Form1";
+            TopMost = true;
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private TextBox textFusenMemo;
+        private ColorDialog colorDialogFusen;
     }
 }
