@@ -54,7 +54,7 @@
             Controls.Add(textFusenMemo);
             FormBorderStyle = FormBorderStyle.None;
             Name = "FormFusen";
-            Opacity = 0.6D;
+            Opacity = 0.8D;
             Text = "Form1";
             TopMost = true;
             ResumeLayout(false);

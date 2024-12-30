@@ -2,8 +2,8 @@ namespace Fusen
 {
     public partial class FormFusen : Form
     {
-        // マウスの横位置（X座標）
-        // マウスの縦位置（Y座標）
+        private int mouseX; // マウスの横位置（X座標）
+        private int mouseY; // マウスの縦位置（Y座標）
         
         public FormFusen()
         {
@@ -14,33 +14,44 @@ namespace Fusen
         private void textFusenMemo_KeyDown(object sender, KeyEventArgs e)
         {
             // ＜判定＞押されたキーがエスケープキー？
-            // Yesの場合
-            // アプリケーションを終了
+            if (e.KeyCode == Keys.Escape) {
+                // Yesの場合
+                // アプリケーションを終了
+                this.Close();
+            }
         }
 
         // テキストボックスをマウスでクリックしたとき
         private void textFusenMemo_MouseDown(object sender, MouseEventArgs e)
         {
             // ＜判定＞押されたボタンがマウスの左ボタン？
-            // Yesの場合
-            // マウスの横位置（X座標）を記憶
-            // マウスの縦位置（Y座標）を記憶
+            if (e.Button == MouseButtons.Left)
+            {
+                // Yesの場合
+                this.mouseX = e.X;  // マウスの横位置（X座標）を記憶
+                this.mouseY = e.Y;  // マウスの縦位置（Y座標）を記憶
+            }
         }
 
         // テキストボックスをマウスでダブルクリックしたとき
         private void textFusenMemo_DoubleClick(object sender, EventArgs e)
         {
             // 色の設定ダイアログを表示する
+            colorDialogFusen.ShowDialog();
             // テキストボックスの背景色を色の設定ダイアログで選んだ色に設定する
+            textFusenMemo.BackColor = colorDialogFusen.Color;
         }
 
         // テキストボックスでクリックしたマウスを移動させたとき
         private void textFusenMemo_MouseMove(object sender, MouseEventArgs e)
         {
             // ＜判定＞押されたボタンがマウスの左ボタン？
-            // Yesの場合
-            // フォームの横位置（X座標）を更新
-            // フォームの縦位置（Y座標）を更新
+            if (e.Button == MouseButtons.Left)
+            {
+                // Yesの場合
+                this.Left += e.X - mouseX;  // フォームの横位置（X座標）を更新
+                this.Top += e.Y - mouseY;   // フォームの縦位置（Y座標）を更新
+            }
         }
     }
 }
